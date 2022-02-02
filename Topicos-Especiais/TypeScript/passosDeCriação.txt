@@ -1,0 +1,6 @@
+1- Cria pasta do projeto
+2- Cria a pasta tsconfig.json
+{
+
+}
+3- tsc -w

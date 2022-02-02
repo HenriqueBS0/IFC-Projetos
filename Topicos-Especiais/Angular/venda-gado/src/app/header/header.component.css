@@ -1,0 +1,15 @@
+div {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0f0f;
+  border-bottom: 3px solid #999999;
+}
+
+span {
+  font-size: 32px;
+  color: white;
+}
+

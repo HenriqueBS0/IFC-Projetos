@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  border: 0;
+  background-color: rgba(238, 238, 238, 0.246);
+}
+
+USC-root {
+  display: flex;
+  flex-direction: column;
+}
+
+.dados{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+

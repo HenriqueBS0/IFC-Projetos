@@ -1,0 +1,103 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "05e024d902ddc03dc148c74195c44ced",
+    "packages": [
+        {
+            "name": "henriquebs0/accessor",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HenriqueBS0/accessor.git",
+                "reference": "a1b279da830a4198fad6e549c2977b34699823f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HenriqueBS0/accessor/zipball/a1b279da830a4198fad6e549c2977b34699823f2",
+                "reference": "a1b279da830a4198fad6e549c2977b34699823f2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.12"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HenriqueBS0\\Accessor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "HenriqueBS0",
+                    "email": "henrique.10agr@gmail.com"
+                }
+            ],
+            "description": "ORM php",
+            "support": {
+                "issues": "https://github.com/HenriqueBS0/accessor/issues",
+                "source": "https://github.com/HenriqueBS0/accessor/tree/main"
+            },
+            "time": "2021-12-05T00:33:31+00:00"
+        },
+        {
+            "name": "henriquebs0/router",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HenriqueBS0/router.git",
+                "reference": "58b8c624fed60136c75f2a7e3c479f709a893d70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HenriqueBS0/router/zipball/58b8c624fed60136c75f2a7e3c479f709a893d70",
+                "reference": "58b8c624fed60136c75f2a7e3c479f709a893d70",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.12"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HenriqueBS0\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "HenriqueBS0",
+                    "email": "henrique.10agr@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/HenriqueBS0/router/issues",
+                "source": "https://github.com/HenriqueBS0/router/tree/main"
+            },
+            "time": "2021-11-17T02:55:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "henriquebs0/accessor": 20,
+        "henriquebs0/router": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

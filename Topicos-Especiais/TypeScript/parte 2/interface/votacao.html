@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Votação</title>
+  <script src="../dist/votacao.js"></script>
+</head>
+<body>
+  Número de eleitores: <input type="number" name="eleitores" id="eleitores" value="0"><br>
+  Número de votos brancos: <input type="number" name="votosBrancos" id="votosBrancos" value="0"> <br>
+  Número de votos nulos: <input type="number" name="votosNulos" id="votosNulos" value="0"> <br>
+  Número de votos validos: <input type="number" name="votosValidos" id="votosValidos" value="0"> <br>
+  <button onclick="geraPorcentagens()">Percentual</button>
+  <div id="result">
+    <span id="percentualVotosBrancos"></span>
+    <span id="percentualVotosNulos"></span>
+    <span id="percentualVotosValidos"></span>
+  </div>
+</body>
+</html>

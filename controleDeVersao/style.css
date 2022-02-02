@@ -1,0 +1,30 @@
+body {
+  background-color: dodgerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+  width: 80vw;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  font-size: 2em;
+  color: blue;
+  border: 5px solid darkcyan;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.diferenciado {
+  background-color: rgb(3, 41, 85);
+  border-color: yellow;
+  color: rgb(164, 101, 223);
+}

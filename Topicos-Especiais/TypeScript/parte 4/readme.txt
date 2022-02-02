@@ -1,0 +1,1 @@
+Toda a implementação das Classes está em app.js, rodar esse script para avaliar as funções dos objetos.

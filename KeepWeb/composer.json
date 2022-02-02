@@ -1,0 +1,24 @@
+{
+    "name": "henriquebs0/keep",
+    "description": "Replica simples do Keep usando html, css, js e php",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HenriqueBS0\\Keep\\": "src/"
+        },
+        "files": [
+            "src/config.php",
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "HenriqueBS0",
+            "email": "henrique.10agr@gmail.com"
+        }
+    ],
+    "require": {
+        "henriquebs0/accessor": "dev-main",
+        "henriquebs0/router": "dev-main"
+    }
+}

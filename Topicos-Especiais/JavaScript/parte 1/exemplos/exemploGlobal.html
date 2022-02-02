@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <p id="demo">Olá</p>
+  <input type="text" id="texto">
+  <script>
+    function translateText() {
+      var x = document.getElementById("demo");
+      x.innerHTML = "Hello!";
+      var y = document.getElementById("texto");
+      y.value = "Hello!";
+    }
+  </script>
+  <button type="button" onclick="translateText()">Translate</button>
+</body>
+
+</html>

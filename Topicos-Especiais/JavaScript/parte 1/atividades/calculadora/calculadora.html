@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Calculadora</title>
+</head>
+<script src="js/calculos.js"></script>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#soma">Soma</a></li>
+        <li><a href="#subtracao">Subtração</a></li>
+        <li><a href="#multiplicacao">Multiplicação</a></li>
+        <li><a href="#divisao">Divisão</a></li>
+        <li><a href="#exponenciacao">Exponenciacao</a></li>
+        <li><a href="#radiciacao">Radiciação</a></li>
+      </ul>
+    </nav>
+    <H1>CAlCuLe</H1>
+  </header>
+  <div class="tela" id="soma">
+    <div class="card">
+      <h2>Soma</h2>
+      <div class="campos">
+        <input type="text" id="v1Soma">
+        <img src="img/soma.png">
+        <input type="text" id="v2Soma">
+        <img src="img/igual.png">
+        <p id="resultadoSoma"></p>
+      </div>
+      <button type="button" onclick="soma()">Somar</button>
+      <div class="info">
+      <p id="infoSoma"></p>
+      </div>
+    </div>
+  </div>
+  <div class="tela" id="subtracao">
+    <div class="card">
+      <h2>Subtração</h2>
+      <div class="campos">
+        <input type="text" id="v1Subtracao">
+        <img src="img/menos.png">
+        <input type="text" id="v2Subtracao">
+        <img src="img/igual.png">
+        <p id="resultadoSubtracao"></p>
+      </div>
+      <button type="button" onclick="subtracao()">Subtrair</button>
+      <div class="info">
+      <p id="infoSubtracao"></p>
+      </div>
+    </div>
+  </div>
+  <div class="tela" id="multiplicacao">
+    <div class="card">
+      <h2>Multiplicação</h2>
+      <div class="campos">
+        <input type="text" id="v1Multiplicacao">
+        <img src="img/vezes.png">
+        <input type="text" id="v2Multiplicacao">
+        <img src="img/igual.png">
+        <p id="resultadoMultiplicacao"></p>
+      </div>
+      <button type="button" onclick="multiplicacao()">Multiplicar</button>
+      <div class="info">
+      <p id="infoMultiplicacao"></p>
+      </div>
+    </div>
+  </div>
+  <div class="tela" id="divisao">
+    <div class="card">
+      <h2>Divisão</h2>
+      <div class="campos">
+        <input type="text" id="v1Divisao">
+        <img src="img/divisão.png">
+        <input type="text" id="v2Divisao">
+        <img src="img/igual.png">
+        <p id="resultadoDivisao"></p>
+      </div>
+      <button type="button" onclick="divisao()">Dividir</button>
+      <div class="info">
+      <p id="infoDivisao"></p>
+      </div>
+    </div>
+  </div>
+  <div class="tela" id="exponenciacao">
+    <div class="card">
+      <h2>Exponenciação</h2>
+      <div class="campos">
+        <input type="text" id="v1Exponenciacao">
+        <img src="img/elevado.png">
+        <input type="text"id="v2Exponenciacao">
+        <img src="img/igual.png">
+        <p id="resultadoExponenciacao"></p>
+      </div>
+      <button type="button" onclick="exponenciacao()">Exponeciar</button>
+      <div class="info">
+      <p id="infoExponenciacao"></p>
+      </div>
+    </div>
+  </div>
+  <div class="tela" id="radiciacao">
+    <div class="card">
+      <h2>Radiciação</h2>
+      <div class="campos">
+        <input type="text" id="v1Radiciacao">
+        <img src="img/raiz.png">
+        <input type="text"id="v2Radiciacao">
+        <img src="img/igual.png">
+        <p id="resultadoRadiciacao"></p>
+      </div>
+      <button type="button" onclick="radiciacao()">Radiciar</button>
+      <div class="info">
+      <p id="infoRadiciacao"></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

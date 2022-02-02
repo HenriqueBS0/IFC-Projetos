@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Append</title>
+</head>
+<body id="corpo">
+  <h1>Adicionar Elementos</h1>
+  <p>Digite o texto: <input type="text" id="texto"></p>
+  <p><button onclick="adicionar()">Adicionar</button></p>
+  <script>
+    var i = 0;
+    function adicionar(){
+      var texto = document.getElementById("texto").value;
+      var paragrafo = document.createElement("p");
+      var atributo = document.createAttribute("id");
+      atributo.value = "pId"+(i++);
+      var nodo = document.createTextNode(texto);
+      paragrafo.appendChild(nodo);
+      paragrafo.setAttributeNode(atributo);
+      var elemento = document.getElementById("corpo");
+      elemento.appendChild(paragrafo);
+    }
+  </script>
+</body>
+</html>

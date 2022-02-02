@@ -1,0 +1,12 @@
+div {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: green;
+  border-top: 2px solid white;
+}
+
+span {
+  color: white;
+}

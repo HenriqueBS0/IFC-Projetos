@@ -1,0 +1,12 @@
+.conteudo {
+    height: calc(100vh - 60px);
+}
+
+.menu-lateral {
+    height: calc(100vh - 60px);
+}
+
+.filtro-label {
+    min-width: 100px;
+    display: block;
+}

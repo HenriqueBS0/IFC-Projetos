@@ -1,0 +1,11 @@
+div {
+  text-align: center;
+  height: 10vh;
+  margin: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.212);
+}
+
+span{
+  font-size: 32px;
+  line-height: 55px;
+}

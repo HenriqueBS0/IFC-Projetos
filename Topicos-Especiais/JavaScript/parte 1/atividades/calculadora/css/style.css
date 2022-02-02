@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/fundo.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: rgb(255, 36, 120);
+  text-align: center;
+  font-size: 10em;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+nav {
+  width: 100vw;
+  display: block;
+  position: fixed;
+  background-color: #27bdf8;
+  padding: 20px;
+  padding-right: 35vw;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+}
+
+.tela{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  height: 70vh;
+  background-color: rgb(234, 251, 255);
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card h2 {
+  font-family: 'Merienda One', cursive;
+  font-size: 3.5em;
+  color: rgb(255, 169, 9);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(17, 17, 17);
+  margin-bottom: 50px;
+}
+
+.card button {
+  width: 200px;
+  height: 45px;
+  margin: 30px 0;
+  outline: none;
+  border: 0 none;
+  border-radius: 25px;
+  background-color: rgb(234, 251, 255);
+  text-align: center;
+  box-shadow: -2px -2px 6px rgb(255, 255, 255),
+               2px 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;                             
+  font-size: 1.5em;
+}
+.card button:active{
+  box-shadow: inset -2px -2px 6px rgb(255, 255, 255),
+              inset 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.card button:hover {
+  cursor: pointer;
+}
+
+.info p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 80px;
+  box-shadow: inset -2px -2px 6px rgb(255, 255, 255),
+              inset 2px 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;              
+}
+
+.campos {
+  display: flex;
+  align-items: center;
+}
+
+.campos input, .campos p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin: 0 10px;
+  outline: none;
+  border: 0 none;
+  border-radius: 5px;
+  overflow-x: hidden;
+  background-color: rgb(234, 251, 255);
+  text-align: center;
+  box-shadow: -2px -2px 6px rgb(255, 255, 255),
+               2px 2px 6px rgba(0, 0, 0, 0.1);              
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.4em;
+}
+
+.campos img {
+  width: 35px;
+  height: 35px;
+}
+
+.campos input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: none;
+  box-shadow: inset -2px -2px 6px rgb(255, 255, 255),
+              inset 2px 2px 6px rgba(0, 0, 0, 0.1);       
+  border-radius: 5px;       
+}
+

@@ -1,0 +1,1 @@
+import formularioCadastrar from './formularioCadastrar.js';

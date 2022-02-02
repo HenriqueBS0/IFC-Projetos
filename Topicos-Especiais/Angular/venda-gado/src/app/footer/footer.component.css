@@ -1,0 +1,10 @@
+div{
+  height: 5vh;
+  background-color: black;
+}
+
+span{
+  color: white;
+  line-height: 32px;
+  margin-left: 20px;
+}
